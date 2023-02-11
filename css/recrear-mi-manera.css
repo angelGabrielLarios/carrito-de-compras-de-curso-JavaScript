@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Hind-Regular';
+    src: url('../fonts/Hind-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Hind-Light';
+    src: url('../fonts/Hind-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Hind-Bold';
+    src: url('../fonts/Hind-Bold.ttf');
+}
+
+body {
+    font-family: 'Hind-Regular';
+}
+
+main {
+    overflow: hidden;
+    min-height: calc(100vh - 78.33px);
+    background-image: url('../imgs2/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* persolizar el scroll */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: #7a05eb;
+}
+.title-main {
+    background-image: linear-gradient(to right, #7a05eb, #3f42e9, #1b69a2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    font-family: 'Hind-Bold';
+}
+
+.dropdown-menu {
+    width: 600px;
+}
+
+.hero {
+    background-image: linear-gradient(to right, #7a05eb, #3f42e9, #1b69a2);
+}
+
+.navbar {
+    background-color: #7a05eb !important;
+}
+
+
+
+.btn-outline-primary {
+    color: #7a05eb !important;
+    border-color: #7a05eb !important;
+}
+.btn-outline-primary:hover {
+    background-color: #7a05eb !important;
+    color: white !important;
+}
+body {
+    background-image: linear-gradient(to top right, #3f42e9, #1b69a2);
+}
+
+
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    
+    .cursos {
+        width: 80% !important;
+        margin: auto !important;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .dropdown-menu {
+        width: 80vw !important;
+    }
+}
